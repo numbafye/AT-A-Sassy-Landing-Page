@@ -70,6 +70,11 @@ a {
 .hero nav ul li {
   padding: 15px;
 }
+.hero nav ul li:hover {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  background-color: #FFC300;
+}
 .hero-content {
   display: flex;
   align-items: center;

@@ -38,6 +38,11 @@ a {
 
       li {
         padding: 15px;
+
+        &:hover {
+          text-decoration: dotted;
+          background-color: $light-color;
+        }
       }
     }
   }
